@@ -1,0 +1,30 @@
+[0.027s] Invoking command in '/home/vectioneer/git/ros2_laser_scan_merger/build/ros2_laser_scan_merger': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vectioneer/git/MCX-ROS-Linker/install/mcx_ros_linker:/home/vectioneer/ros2_ws/install/mcx_linker:/opt/ros/iron /usr/bin/cmake --build /home/vectioneer/git/ros2_laser_scan_merger/build/ros2_laser_scan_merger -- -j12 -l12
+[0.109s] [35m[1mConsolidate compiler generated dependencies of target ros2_laser_scan_merger[0m
+[0.150s] [100%] Built target ros2_laser_scan_merger
+[0.168s] Invoked command in '/home/vectioneer/git/ros2_laser_scan_merger/build/ros2_laser_scan_merger' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vectioneer/git/MCX-ROS-Linker/install/mcx_ros_linker:/home/vectioneer/ros2_ws/install/mcx_linker:/opt/ros/iron /usr/bin/cmake --build /home/vectioneer/git/ros2_laser_scan_merger/build/ros2_laser_scan_merger -- -j12 -l12
+[0.224s] Invoking command in '/home/vectioneer/git/ros2_laser_scan_merger/build/ros2_laser_scan_merger': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vectioneer/git/MCX-ROS-Linker/install/mcx_ros_linker:/home/vectioneer/ros2_ws/install/mcx_linker:/opt/ros/iron /usr/bin/cmake --install /home/vectioneer/git/ros2_laser_scan_merger/build/ros2_laser_scan_merger
+[0.240s] -- Install configuration: ""
+[0.240s] -- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/launch
+[0.240s] -- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/launch/merge_2_scan.launch.py
+[0.240s] -- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/launch/visualize_merge_2_scan.launch.py
+[0.241s] -- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/config
+[0.241s] -- Installing: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/config/params.yaml
+[0.241s] -- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/rviz
+[0.241s] -- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/rviz/ros2_laser_scan_merge.rviz
+[0.241s] -- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/lib/ros2_laser_scan_merger/ros2_laser_scan_merger
+[0.241s] -- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ament_index/resource_index/package_run_dependencies/ros2_laser_scan_merger
+[0.241s] -- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ament_index/resource_index/parent_prefix_path/ros2_laser_scan_merger
+[0.242s] -- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/environment/ament_prefix_path.sh
+[0.242s] -- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/environment/ament_prefix_path.dsv
+[0.242s] -- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/environment/path.sh
+[0.242s] -- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/environment/path.dsv
+[0.242s] -- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/local_setup.bash
+[0.242s] -- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/local_setup.sh
+[0.242s] -- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/local_setup.zsh
+[0.242s] -- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/local_setup.dsv
+[0.243s] -- Installing: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/package.dsv
+[0.243s] -- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ament_index/resource_index/packages/ros2_laser_scan_merger
+[0.244s] -- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/cmake/ros2_laser_scan_mergerConfig.cmake
+[0.244s] -- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/cmake/ros2_laser_scan_mergerConfig-version.cmake
+[0.244s] -- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/package.xml
+[0.245s] Invoked command in '/home/vectioneer/git/ros2_laser_scan_merger/build/ros2_laser_scan_merger' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vectioneer/git/MCX-ROS-Linker/install/mcx_ros_linker:/home/vectioneer/ros2_ws/install/mcx_linker:/opt/ros/iron /usr/bin/cmake --install /home/vectioneer/git/ros2_laser_scan_merger/build/ros2_laser_scan_merger

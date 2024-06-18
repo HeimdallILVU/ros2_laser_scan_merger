@@ -1,0 +1,196 @@
+[0.012s] Invoking command in '/home/vectioneer/git/ros2_laser_scan_merger/build/ros2_laser_scan_merger': CMAKE_PREFIX_PATH=/home/vectioneer/git/MCX-ROS-Linker/install/mcx_ros_linker:/home/vectioneer/ros2_ws/install/mcx_linker:/opt/ros/iron /usr/bin/cmake /home/vectioneer/git/ros2_laser_scan_merger -DCMAKE_INSTALL_PREFIX=/home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger
+[0.128s] -- The C compiler identification is GNU 11.4.0
+[0.220s] -- The CXX compiler identification is GNU 11.4.0
+[0.231s] -- Detecting C compiler ABI info
+[0.306s] -- Detecting C compiler ABI info - done
+[0.315s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.315s] -- Detecting C compile features
+[0.316s] -- Detecting C compile features - done
+[0.320s] -- Detecting CXX compiler ABI info
+[0.399s] -- Detecting CXX compiler ABI info - done
+[0.408s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.408s] -- Detecting CXX compile features
+[0.409s] -- Detecting CXX compile features - done
+[0.419s] -- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.617s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.736s] -- Found rclcpp: 21.0.6 (/opt/ros/iron/share/rclcpp/cmake)
+[0.798s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.811s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.838s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.864s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.070s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.073s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.194s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.228s] -- Found FastRTPS: /opt/ros/iron/include  
+[1.281s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.495s] -- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+[1.783s] -- Found pcl_conversions: 2.4.0 (/opt/ros/iron/share/pcl_conversions/cmake)
+[2.008s] -- Found tf2_geometry_msgs: 0.31.6 (/opt/ros/iron/share/tf2_geometry_msgs/cmake)
+[2.027s] -- Found eigen3_cmake_module: 0.2.2 (/opt/ros/iron/share/eigen3_cmake_module/cmake)
+[2.030s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.030s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.607s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system 
+[2.626s] -- Checking for module 'eigen3'
+[2.639s] --   Found eigen3, version 3.4.0
+[2.677s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.677s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.696s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[2.714s] -- Checking for module 'flann'
+[2.732s] --   Found flann, version 1.9.1
+[2.775s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.775s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.814s] -- Looking for pthread.h
+[2.895s] -- Looking for pthread.h - found
+[2.896s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.971s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.972s] -- Found Threads: TRUE  
+[2.975s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[2.983s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[3.153s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[3.154s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[3.158s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[3.168s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[3.186s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[3.207s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[3.306s] -- Found X11: /usr/include   
+[3.306s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[3.377s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[3.377s] -- Looking for gethostbyname
+[3.445s] -- Looking for gethostbyname - found
+[3.445s] -- Looking for connect
+[3.516s] -- Looking for connect - found
+[3.517s] -- Looking for remove
+[3.586s] -- Looking for remove - found
+[3.587s] -- Looking for shmat
+[3.655s] -- Looking for shmat - found
+[3.655s] -- Looking for IceConnectionNumber in ICE
+[3.720s] -- Looking for IceConnectionNumber in ICE - found
+[3.802s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[3.804s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[3.807s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[3.810s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[3.861s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[3.869s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[3.876s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[3.884s] -- Found utf8cpp: /usr/include/utf8cpp  
+[3.978s] -- Checking for module 'libusb-1.0'
+[3.993s] --   Found libusb-1.0, version 1.0.25
+[4.031s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[4.033s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[4.033s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.096s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[4.096s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.096s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[4.271s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.278s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.286s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.444s] -- Found Qhull version 8.0.2
+[4.603s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.757s] -- looking for PCL_COMMON
+[4.759s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[4.759s] -- looking for PCL_KDTREE
+[4.772s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[4.772s] -- looking for PCL_OCTREE
+[4.773s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[4.773s] -- looking for PCL_SEARCH
+[4.774s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[4.775s] -- looking for PCL_SAMPLE_CONSENSUS
+[4.776s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[4.776s] -- looking for PCL_FILTERS
+[4.777s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[4.777s] -- looking for PCL_2D
+[4.777s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[4.777s] -- looking for PCL_GEOMETRY
+[4.778s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[4.778s] -- looking for PCL_IO
+[4.779s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[4.779s] -- looking for PCL_FEATURES
+[4.780s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[4.780s] -- looking for PCL_ML
+[4.781s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[4.781s] -- looking for PCL_SEGMENTATION
+[4.783s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[4.783s] -- looking for PCL_VISUALIZATION
+[4.784s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[4.784s] -- looking for PCL_SURFACE
+[4.785s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[4.785s] -- looking for PCL_REGISTRATION
+[4.786s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[4.787s] -- looking for PCL_KEYPOINTS
+[4.788s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[4.788s] -- looking for PCL_TRACKING
+[4.789s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[4.789s] -- looking for PCL_RECOGNITION
+[4.790s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[4.790s] -- looking for PCL_STEREO
+[4.791s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[4.791s] -- looking for PCL_APPS
+[4.793s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[4.794s] -- looking for PCL_IN_HAND_SCANNER
+[4.794s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[4.794s] -- looking for PCL_MODELER
+[4.795s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[4.795s] -- looking for PCL_POINT_CLOUD_EDITOR
+[4.799s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[4.799s] -- looking for PCL_OUTOFCORE
+[4.801s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[4.801s] -- looking for PCL_PEOPLE
+[4.802s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[4.803s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[4.891s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[4.988s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.995s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.995s] -- Configured cppcheck include dirs: /home/vectioneer/git/ros2_laser_scan_merger/include
+[4.995s] -- Configured cppcheck exclude dirs and/or files: 
+[5.001s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.001s] -- Configured cpplint exclude dirs and/or files: 
+[5.002s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.003s] -- Configured 'flake8' exclude dirs and/or files: 
+[5.005s] -- Added test 'lint_cmake' to check CMake code style
+[5.006s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.010s] -- Added test 'uncrustify' to check C / C++ code style
+[5.010s] -- Configured uncrustify additional arguments: 
+[5.012s] -- Added test 'xmllint' to check XML markup files
+[5.013s] -- Configuring done
+[5.039s] -- Generating done
+[5.043s] -- Build files have been written to: /home/vectioneer/git/ros2_laser_scan_merger/build/ros2_laser_scan_merger
+[5.065s] Invoked command in '/home/vectioneer/git/ros2_laser_scan_merger/build/ros2_laser_scan_merger' returned '0': CMAKE_PREFIX_PATH=/home/vectioneer/git/MCX-ROS-Linker/install/mcx_ros_linker:/home/vectioneer/ros2_ws/install/mcx_linker:/opt/ros/iron /usr/bin/cmake /home/vectioneer/git/ros2_laser_scan_merger -DCMAKE_INSTALL_PREFIX=/home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger
+[5.067s] Invoking command in '/home/vectioneer/git/ros2_laser_scan_merger/build/ros2_laser_scan_merger': CMAKE_PREFIX_PATH=/home/vectioneer/git/MCX-ROS-Linker/install/mcx_ros_linker:/home/vectioneer/ros2_ws/install/mcx_linker:/opt/ros/iron /usr/bin/cmake --build /home/vectioneer/git/ros2_laser_scan_merger/build/ros2_laser_scan_merger -- -j12 -l12
+[5.128s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_laser_scan_merger.dir/src/main.cpp.o[0m
+[11.606s] [01m[K/home/vectioneer/git/ros2_laser_scan_merger/src/main.cpp:[m[K In member function ‘[01m[Kvoid scanMerger::update_point_cloud_rgb()[m[K’:
+[11.606s] [01m[K/home/vectioneer/git/ros2_laser_scan_merger/src/main.cpp:76:57:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[11.606s]    76 |       for (float i = temp_min_; i <= temp_max_ && [01;35m[Kcount < laser1_->ranges.size()[m[K;
+[11.606s]       |                                                   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.607s] [01m[K/home/vectioneer/git/ros2_laser_scan_merger/src/main.cpp:150:57:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[11.607s]   150 |       for (float i = temp_min_; i <= temp_max_ && [01;35m[Kcount < laser2_->ranges.size()[m[K;
+[11.607s]       |                                                   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.157s] [100%] [32m[1mLinking CXX executable ros2_laser_scan_merger[0m
+[18.711s] [100%] Built target ros2_laser_scan_merger
+[18.727s] Invoked command in '/home/vectioneer/git/ros2_laser_scan_merger/build/ros2_laser_scan_merger' returned '0': CMAKE_PREFIX_PATH=/home/vectioneer/git/MCX-ROS-Linker/install/mcx_ros_linker:/home/vectioneer/ros2_ws/install/mcx_linker:/opt/ros/iron /usr/bin/cmake --build /home/vectioneer/git/ros2_laser_scan_merger/build/ros2_laser_scan_merger -- -j12 -l12
+[18.760s] Invoking command in '/home/vectioneer/git/ros2_laser_scan_merger/build/ros2_laser_scan_merger': CMAKE_PREFIX_PATH=/home/vectioneer/git/MCX-ROS-Linker/install/mcx_ros_linker:/home/vectioneer/ros2_ws/install/mcx_linker:/opt/ros/iron /usr/bin/cmake --install /home/vectioneer/git/ros2_laser_scan_merger/build/ros2_laser_scan_merger
+[18.769s] -- Install configuration: ""
+[18.769s] -- Installing: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/launch
+[18.769s] -- Installing: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/launch/merge_2_scan.launch.py
+[18.769s] -- Installing: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/launch/visualize_merge_2_scan.launch.py
+[18.769s] -- Installing: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/config
+[18.770s] -- Installing: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/config/params.yaml
+[18.770s] -- Installing: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/rviz
+[18.770s] -- Installing: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/rviz/ros2_laser_scan_merge.rviz
+[18.770s] -- Installing: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/lib/ros2_laser_scan_merger/ros2_laser_scan_merger
+[18.775s] -- Set runtime path of "/home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/lib/ros2_laser_scan_merger/ros2_laser_scan_merger" to ""
+[18.776s] -- Installing: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ament_index/resource_index/package_run_dependencies/ros2_laser_scan_merger
+[18.776s] -- Installing: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ament_index/resource_index/parent_prefix_path/ros2_laser_scan_merger
+[18.776s] -- Installing: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/environment/ament_prefix_path.sh
+[18.776s] -- Installing: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/environment/ament_prefix_path.dsv
+[18.777s] -- Installing: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/environment/path.sh
+[18.777s] -- Installing: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/environment/path.dsv
+[18.777s] -- Installing: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/local_setup.bash
+[18.777s] -- Installing: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/local_setup.sh
+[18.777s] -- Installing: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/local_setup.zsh
+[18.778s] -- Installing: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/local_setup.dsv
+[18.778s] -- Installing: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/package.dsv
+[18.779s] -- Installing: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ament_index/resource_index/packages/ros2_laser_scan_merger
+[18.779s] -- Installing: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/cmake/ros2_laser_scan_mergerConfig.cmake
+[18.779s] -- Installing: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/cmake/ros2_laser_scan_mergerConfig-version.cmake
+[18.779s] -- Installing: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/package.xml
+[18.782s] Invoked command in '/home/vectioneer/git/ros2_laser_scan_merger/build/ros2_laser_scan_merger' returned '0': CMAKE_PREFIX_PATH=/home/vectioneer/git/MCX-ROS-Linker/install/mcx_ros_linker:/home/vectioneer/ros2_ws/install/mcx_linker:/opt/ros/iron /usr/bin/cmake --install /home/vectioneer/git/ros2_laser_scan_merger/build/ros2_laser_scan_merger

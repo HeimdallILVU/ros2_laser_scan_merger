@@ -31,12 +31,15 @@ public:
     laser2_ = std::make_shared<sensor_msgs::msg::LaserScan>();
 
     auto default_qos = rclcpp::QoS(rclcpp::SensorDataQoS());
+    default_qos.reliability(rclcpp::ReliabilityPolicy::BestEffort);
+
     sub1_ = this->create_subscription<sensor_msgs::msg::LaserScan>(
         topic1_, default_qos, std::bind(&scanMerger::scan_callback1, this, std::placeholders::_1));
     sub2_ = this->create_subscription<sensor_msgs::msg::LaserScan>(
         topic2_, default_qos, std::bind(&scanMerger::scan_callback2, this, std::placeholders::_1));
 
     point_cloud_pub_ = this->create_publisher<sensor_msgs::msg::PointCloud2>(cloudTopic_, rclcpp::SensorDataQoS());
+
     RCLCPP_INFO(this->get_logger(), "Hello");
   }
 
@@ -44,6 +47,8 @@ private:
   void scan_callback1(const sensor_msgs::msg::LaserScan::SharedPtr _msg)
   {
     laser1_ = _msg;
+    //RCLCPP_INFO(this->get_logger(), "Updating Point Cloud");
+    //std::cout << "TEST AZERTY" << std::endl;
     update_point_cloud_rgb();
     // RCLCPP_INFO(this->get_logger(), "I heard: '%f' '%f'", _msg->ranges[0],
     //         _msg->ranges[100]);
@@ -51,6 +56,8 @@ private:
   void scan_callback2(const sensor_msgs::msg::LaserScan::SharedPtr _msg)
   {
     laser2_ = _msg;
+    //RCLCPP_INFO(this->get_logger(), "Updating Point Cloud");
+    //std::cout << "TEST AZERTY" << std::endl;
     // RCLCPP_INFO(this->get_logger(), "I heard: '%f' '%f'", _msg->ranges[0],
     //         _msg->ranges[100]);
   }
@@ -73,7 +80,7 @@ private:
         temp_min_ = laser1_->angle_max;
         temp_max_ = laser1_->angle_min;
       }
-      for (float i = temp_min_; i <= temp_max_ && count < laser1_->ranges.size();
+      for (float i = temp_min_; i <= temp_max_ && count < (int) laser1_->ranges.size();
            i += laser1_->angle_increment)
       {
         pcl::PointXYZRGB pt;
@@ -147,7 +154,7 @@ private:
         temp_min_ = laser2_->angle_max;
         temp_max_ = laser2_->angle_min;
       }
-      for (float i = temp_min_; i <= temp_max_ && count < laser2_->ranges.size();
+      for (float i = temp_min_; i <= temp_max_ && count < (int) laser2_->ranges.size();
            i += laser2_->angle_increment)
       {
         pcl::PointXYZRGB pt;

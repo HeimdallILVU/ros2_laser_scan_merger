@@ -1,0 +1,255 @@
+[0.000000] (-) TimerEvent: {}
+[0.000427] (ros2_laser_scan_merger) JobQueued: {'identifier': 'ros2_laser_scan_merger', 'dependencies': OrderedDict()}
+[0.000492] (ros2_laser_scan_merger) JobStarted: {'identifier': 'ros2_laser_scan_merger'}
+[0.017243] (ros2_laser_scan_merger) JobProgress: {'identifier': 'ros2_laser_scan_merger', 'progress': 'cmake'}
+[0.019081] (ros2_laser_scan_merger) JobProgress: {'identifier': 'ros2_laser_scan_merger', 'progress': 'build'}
+[0.020748] (ros2_laser_scan_merger) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vectioneer/git/ros2_laser_scan_merger/build/ros2_laser_scan_merger', '--', '-j12', '-l12'], 'cwd': '/home/vectioneer/git/ros2_laser_scan_merger/build/ros2_laser_scan_merger', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vectioneer'), ('LC_TIME', 'ar_DZ.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vectioneer/git/pointcloud_to_laserscan/install/pointcloud_to_laserscan/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/vectioneer'), ('OLDPWD', '/home/vectioneer/git/ros2_laser_scan_merger/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_DZ.UTF-8'), ('SYSTEMD_EXEC_PID', '6267'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vectioneer/git/pointcloud_to_laserscan/install:/home/vectioneer/git/ros2_laser_scan_merger/install:/home/vectioneer/git/MCX-ROS-Linker/install:/home/vectioneer/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'vectioneer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vectioneer'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/iron/share/turtlebot3_gazebo/models:/home/vectioneer/git/MCX-ROS-Linker/install/mcx_ros_linker/share/mcx_ros_linker/custom_models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vectioneer-Inspiron-15-3520:@/tmp/.ICE-unix/1667,unix/vectioneer-Inspiron-15-3520:/tmp/.ICE-unix/1667'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_DZ.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a1c8fa15_c482_42eb_9915_9162a91fe048'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_DZ.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VHO4O2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.143'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vectioneer/git/pointcloud_to_laserscan/install/pointcloud_to_laserscan:/home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger:/home/vectioneer/git/MCX-ROS-Linker/install/mcx_ros_linker:/home/vectioneer/ros2_ws/install/mcx_linker:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_DZ.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_DZ.UTF-8'), ('LC_IDENTIFICATION', 'ar_DZ.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vectioneer/git/ros2_laser_scan_merger/build/ros2_laser_scan_merger'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vectioneer/git/MCX-ROS-Linker/install/mcx_ros_linker/lib/python3.10/site-packages:/home/vectioneer/ros2_ws/install/mcx_linker/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'ar_DZ.UTF-8'), ('LC_PAPER', 'ar_DZ.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vectioneer/git/pointcloud_to_laserscan/install/pointcloud_to_laserscan:/home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger:/home/vectioneer/git/MCX-ROS-Linker/install/mcx_ros_linker:/home/vectioneer/ros2_ws/install/mcx_linker:/opt/ros/iron')]), 'shell': False}
+[0.098341] (-) TimerEvent: {}
+[0.118164] (ros2_laser_scan_merger) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_laser_scan_merger\x1b[0m\n'}
+[0.168752] (ros2_laser_scan_merger) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ros2_laser_scan_merger.dir/src/main.cpp.o\x1b[0m\n'}
+[0.198469] (-) TimerEvent: {}
+[0.299364] (-) TimerEvent: {}
+[0.399756] (-) TimerEvent: {}
+[0.500364] (-) TimerEvent: {}
+[0.601040] (-) TimerEvent: {}
+[0.701520] (-) TimerEvent: {}
+[0.802044] (-) TimerEvent: {}
+[0.902788] (-) TimerEvent: {}
+[1.003245] (-) TimerEvent: {}
+[1.103731] (-) TimerEvent: {}
+[1.204084] (-) TimerEvent: {}
+[1.304533] (-) TimerEvent: {}
+[1.405233] (-) TimerEvent: {}
+[1.505644] (-) TimerEvent: {}
+[1.606024] (-) TimerEvent: {}
+[1.706457] (-) TimerEvent: {}
+[1.806998] (-) TimerEvent: {}
+[1.907585] (-) TimerEvent: {}
+[2.008087] (-) TimerEvent: {}
+[2.108867] (-) TimerEvent: {}
+[2.209254] (-) TimerEvent: {}
+[2.309636] (-) TimerEvent: {}
+[2.410046] (-) TimerEvent: {}
+[2.510371] (-) TimerEvent: {}
+[2.610731] (-) TimerEvent: {}
+[2.711112] (-) TimerEvent: {}
+[2.811431] (-) TimerEvent: {}
+[2.911749] (-) TimerEvent: {}
+[3.012157] (-) TimerEvent: {}
+[3.112504] (-) TimerEvent: {}
+[3.212937] (-) TimerEvent: {}
+[3.313574] (-) TimerEvent: {}
+[3.414085] (-) TimerEvent: {}
+[3.514540] (-) TimerEvent: {}
+[3.615114] (-) TimerEvent: {}
+[3.715497] (-) TimerEvent: {}
+[3.815872] (-) TimerEvent: {}
+[3.916302] (-) TimerEvent: {}
+[4.017040] (-) TimerEvent: {}
+[4.117422] (-) TimerEvent: {}
+[4.217828] (-) TimerEvent: {}
+[4.318213] (-) TimerEvent: {}
+[4.418955] (-) TimerEvent: {}
+[4.519783] (-) TimerEvent: {}
+[4.620224] (-) TimerEvent: {}
+[4.720601] (-) TimerEvent: {}
+[4.821082] (-) TimerEvent: {}
+[4.921596] (-) TimerEvent: {}
+[5.022256] (-) TimerEvent: {}
+[5.122655] (-) TimerEvent: {}
+[5.223051] (-) TimerEvent: {}
+[5.323517] (-) TimerEvent: {}
+[5.424099] (-) TimerEvent: {}
+[5.524653] (-) TimerEvent: {}
+[5.625268] (-) TimerEvent: {}
+[5.725736] (-) TimerEvent: {}
+[5.826114] (-) TimerEvent: {}
+[5.926512] (-) TimerEvent: {}
+[6.026886] (-) TimerEvent: {}
+[6.127278] (-) TimerEvent: {}
+[6.227809] (-) TimerEvent: {}
+[6.328190] (-) TimerEvent: {}
+[6.428711] (-) TimerEvent: {}
+[6.529360] (-) TimerEvent: {}
+[6.629975] (-) TimerEvent: {}
+[6.730748] (-) TimerEvent: {}
+[6.831295] (-) TimerEvent: {}
+[6.931844] (-) TimerEvent: {}
+[7.032477] (-) TimerEvent: {}
+[7.132869] (-) TimerEvent: {}
+[7.233524] (-) TimerEvent: {}
+[7.334245] (-) TimerEvent: {}
+[7.435169] (-) TimerEvent: {}
+[7.535546] (-) TimerEvent: {}
+[7.636183] (-) TimerEvent: {}
+[7.737184] (-) TimerEvent: {}
+[7.837968] (-) TimerEvent: {}
+[7.938760] (-) TimerEvent: {}
+[8.039161] (-) TimerEvent: {}
+[8.139871] (-) TimerEvent: {}
+[8.240387] (-) TimerEvent: {}
+[8.340826] (-) TimerEvent: {}
+[8.441261] (-) TimerEvent: {}
+[8.541803] (-) TimerEvent: {}
+[8.642704] (-) TimerEvent: {}
+[8.743237] (-) TimerEvent: {}
+[8.843883] (-) TimerEvent: {}
+[8.944611] (-) TimerEvent: {}
+[9.044984] (-) TimerEvent: {}
+[9.145403] (-) TimerEvent: {}
+[9.245876] (-) TimerEvent: {}
+[9.346257] (-) TimerEvent: {}
+[9.446688] (-) TimerEvent: {}
+[9.547131] (-) TimerEvent: {}
+[9.647492] (-) TimerEvent: {}
+[9.747855] (-) TimerEvent: {}
+[9.848238] (-) TimerEvent: {}
+[9.948555] (-) TimerEvent: {}
+[9.969773] (ros2_laser_scan_merger) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vectioneer/git/ros2_laser_scan_merger/src/main.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid scanMerger::update_point_cloud_rgb()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.970139] (ros2_laser_scan_merger) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vectioneer/git/ros2_laser_scan_merger/src/main.cpp:80:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.970269] (ros2_laser_scan_merger) StderrLine: {'line': b'   80 |       for (float i = temp_min_; i <= temp_max_ && \x1b[01;35m\x1b[Kcount < laser1_->ranges.size()\x1b[m\x1b[K;\n'}
+[9.970406] (ros2_laser_scan_merger) StderrLine: {'line': b'      |                                                   \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.971724] (ros2_laser_scan_merger) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vectioneer/git/ros2_laser_scan_merger/src/main.cpp:154:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.971981] (ros2_laser_scan_merger) StderrLine: {'line': b'  154 |       for (float i = temp_min_; i <= temp_max_ && \x1b[01;35m\x1b[Kcount < laser2_->ranges.size()\x1b[m\x1b[K;\n'}
+[9.972096] (ros2_laser_scan_merger) StderrLine: {'line': b'      |                                                   \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.048698] (-) TimerEvent: {}
+[10.149140] (-) TimerEvent: {}
+[10.249820] (-) TimerEvent: {}
+[10.350248] (-) TimerEvent: {}
+[10.450618] (-) TimerEvent: {}
+[10.550957] (-) TimerEvent: {}
+[10.651401] (-) TimerEvent: {}
+[10.751812] (-) TimerEvent: {}
+[10.852401] (-) TimerEvent: {}
+[10.952741] (-) TimerEvent: {}
+[11.053130] (-) TimerEvent: {}
+[11.153480] (-) TimerEvent: {}
+[11.253924] (-) TimerEvent: {}
+[11.354459] (-) TimerEvent: {}
+[11.454835] (-) TimerEvent: {}
+[11.555289] (-) TimerEvent: {}
+[11.655760] (-) TimerEvent: {}
+[11.756195] (-) TimerEvent: {}
+[11.856891] (-) TimerEvent: {}
+[11.957507] (-) TimerEvent: {}
+[12.058360] (-) TimerEvent: {}
+[12.158882] (-) TimerEvent: {}
+[12.259265] (-) TimerEvent: {}
+[12.359750] (-) TimerEvent: {}
+[12.460200] (-) TimerEvent: {}
+[12.560544] (-) TimerEvent: {}
+[12.660991] (-) TimerEvent: {}
+[12.761374] (-) TimerEvent: {}
+[12.861900] (-) TimerEvent: {}
+[12.963414] (-) TimerEvent: {}
+[13.064066] (-) TimerEvent: {}
+[13.164652] (-) TimerEvent: {}
+[13.265054] (-) TimerEvent: {}
+[13.365574] (-) TimerEvent: {}
+[13.466314] (-) TimerEvent: {}
+[13.566878] (-) TimerEvent: {}
+[13.667231] (-) TimerEvent: {}
+[13.767586] (-) TimerEvent: {}
+[13.868026] (-) TimerEvent: {}
+[13.968443] (-) TimerEvent: {}
+[14.068834] (-) TimerEvent: {}
+[14.169208] (-) TimerEvent: {}
+[14.269721] (-) TimerEvent: {}
+[14.370481] (-) TimerEvent: {}
+[14.470993] (-) TimerEvent: {}
+[14.571339] (-) TimerEvent: {}
+[14.671730] (-) TimerEvent: {}
+[14.772060] (-) TimerEvent: {}
+[14.872442] (-) TimerEvent: {}
+[14.972810] (-) TimerEvent: {}
+[15.073194] (-) TimerEvent: {}
+[15.173608] (-) TimerEvent: {}
+[15.274018] (-) TimerEvent: {}
+[15.374362] (-) TimerEvent: {}
+[15.474694] (-) TimerEvent: {}
+[15.575012] (-) TimerEvent: {}
+[15.675360] (-) TimerEvent: {}
+[15.775789] (-) TimerEvent: {}
+[15.876445] (-) TimerEvent: {}
+[15.977266] (-) TimerEvent: {}
+[16.077752] (-) TimerEvent: {}
+[16.178506] (-) TimerEvent: {}
+[16.279364] (-) TimerEvent: {}
+[16.380054] (-) TimerEvent: {}
+[16.480537] (-) TimerEvent: {}
+[16.581202] (-) TimerEvent: {}
+[16.682011] (-) TimerEvent: {}
+[16.782741] (-) TimerEvent: {}
+[16.883535] (-) TimerEvent: {}
+[16.984073] (-) TimerEvent: {}
+[17.084802] (-) TimerEvent: {}
+[17.185119] (-) TimerEvent: {}
+[17.285491] (-) TimerEvent: {}
+[17.385880] (-) TimerEvent: {}
+[17.486234] (-) TimerEvent: {}
+[17.586656] (-) TimerEvent: {}
+[17.687680] (-) TimerEvent: {}
+[17.788352] (-) TimerEvent: {}
+[17.888672] (-) TimerEvent: {}
+[17.989109] (-) TimerEvent: {}
+[18.089688] (-) TimerEvent: {}
+[18.190379] (-) TimerEvent: {}
+[18.290848] (-) TimerEvent: {}
+[18.391406] (-) TimerEvent: {}
+[18.491759] (-) TimerEvent: {}
+[18.592219] (-) TimerEvent: {}
+[18.693060] (-) TimerEvent: {}
+[18.793741] (-) TimerEvent: {}
+[18.894069] (-) TimerEvent: {}
+[18.994424] (-) TimerEvent: {}
+[19.094863] (-) TimerEvent: {}
+[19.195247] (-) TimerEvent: {}
+[19.295616] (-) TimerEvent: {}
+[19.396090] (-) TimerEvent: {}
+[19.496946] (-) TimerEvent: {}
+[19.597366] (-) TimerEvent: {}
+[19.697776] (-) TimerEvent: {}
+[19.767733] (ros2_laser_scan_merger) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ros2_laser_scan_merger\x1b[0m\n'}
+[19.797900] (-) TimerEvent: {}
+[19.898516] (-) TimerEvent: {}
+[19.999269] (-) TimerEvent: {}
+[20.099965] (-) TimerEvent: {}
+[20.200488] (-) TimerEvent: {}
+[20.301256] (-) TimerEvent: {}
+[20.401591] (-) TimerEvent: {}
+[20.502334] (-) TimerEvent: {}
+[20.603430] (-) TimerEvent: {}
+[20.684178] (ros2_laser_scan_merger) StdoutLine: {'line': b'[100%] Built target ros2_laser_scan_merger\n'}
+[20.701994] (ros2_laser_scan_merger) CommandEnded: {'returncode': 0}
+[20.703586] (-) TimerEvent: {}
+[20.740932] (ros2_laser_scan_merger) JobProgress: {'identifier': 'ros2_laser_scan_merger', 'progress': 'install'}
+[20.749921] (ros2_laser_scan_merger) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vectioneer/git/ros2_laser_scan_merger/build/ros2_laser_scan_merger'], 'cwd': '/home/vectioneer/git/ros2_laser_scan_merger/build/ros2_laser_scan_merger', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vectioneer'), ('LC_TIME', 'ar_DZ.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vectioneer/git/pointcloud_to_laserscan/install/pointcloud_to_laserscan/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/vectioneer'), ('OLDPWD', '/home/vectioneer/git/ros2_laser_scan_merger/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_DZ.UTF-8'), ('SYSTEMD_EXEC_PID', '6267'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vectioneer/git/pointcloud_to_laserscan/install:/home/vectioneer/git/ros2_laser_scan_merger/install:/home/vectioneer/git/MCX-ROS-Linker/install:/home/vectioneer/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'vectioneer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vectioneer'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/iron/share/turtlebot3_gazebo/models:/home/vectioneer/git/MCX-ROS-Linker/install/mcx_ros_linker/share/mcx_ros_linker/custom_models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vectioneer-Inspiron-15-3520:@/tmp/.ICE-unix/1667,unix/vectioneer-Inspiron-15-3520:/tmp/.ICE-unix/1667'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_DZ.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a1c8fa15_c482_42eb_9915_9162a91fe048'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_DZ.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VHO4O2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.143'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vectioneer/git/pointcloud_to_laserscan/install/pointcloud_to_laserscan:/home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger:/home/vectioneer/git/MCX-ROS-Linker/install/mcx_ros_linker:/home/vectioneer/ros2_ws/install/mcx_linker:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_DZ.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_DZ.UTF-8'), ('LC_IDENTIFICATION', 'ar_DZ.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vectioneer/git/ros2_laser_scan_merger/build/ros2_laser_scan_merger'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vectioneer/git/MCX-ROS-Linker/install/mcx_ros_linker/lib/python3.10/site-packages:/home/vectioneer/ros2_ws/install/mcx_linker/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'ar_DZ.UTF-8'), ('LC_PAPER', 'ar_DZ.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vectioneer/git/pointcloud_to_laserscan/install/pointcloud_to_laserscan:/home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger:/home/vectioneer/git/MCX-ROS-Linker/install/mcx_ros_linker:/home/vectioneer/ros2_ws/install/mcx_linker:/opt/ros/iron')]), 'shell': False}
+[20.764208] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.764424] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/launch\n'}
+[20.764587] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/launch/merge_2_scan.launch.py\n'}
+[20.764665] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/launch/visualize_merge_2_scan.launch.py\n'}
+[20.764718] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/config\n'}
+[20.764765] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/config/params.yaml\n'}
+[20.764835] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/rviz\n'}
+[20.764882] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/rviz/ros2_laser_scan_merge.rviz\n'}
+[20.764960] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Installing: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/lib/ros2_laser_scan_merger/ros2_laser_scan_merger\n'}
+[20.772412] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Set runtime path of "/home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/lib/ros2_laser_scan_merger/ros2_laser_scan_merger" to ""\n'}
+[20.773527] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ament_index/resource_index/package_run_dependencies/ros2_laser_scan_merger\n'}
+[20.773715] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ament_index/resource_index/parent_prefix_path/ros2_laser_scan_merger\n'}
+[20.773803] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/environment/ament_prefix_path.sh\n'}
+[20.773894] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/environment/ament_prefix_path.dsv\n'}
+[20.773986] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/environment/path.sh\n'}
+[20.774077] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/environment/path.dsv\n'}
+[20.774175] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/local_setup.bash\n'}
+[20.774550] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/local_setup.sh\n'}
+[20.775337] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/local_setup.zsh\n'}
+[20.775665] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/local_setup.dsv\n'}
+[20.775790] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Installing: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/package.dsv\n'}
+[20.775892] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ament_index/resource_index/packages/ros2_laser_scan_merger\n'}
+[20.776002] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/cmake/ros2_laser_scan_mergerConfig.cmake\n'}
+[20.776102] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/cmake/ros2_laser_scan_mergerConfig-version.cmake\n'}
+[20.776221] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/vectioneer/git/ros2_laser_scan_merger/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/package.xml\n'}
+[20.779392] (ros2_laser_scan_merger) CommandEnded: {'returncode': 0}
+[20.803698] (-) TimerEvent: {}
+[20.837914] (ros2_laser_scan_merger) JobEnded: {'identifier': 'ros2_laser_scan_merger', 'rc': 0}
+[20.839020] (-) EventReactorShutdown: {}
